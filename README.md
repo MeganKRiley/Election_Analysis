@@ -35,9 +35,9 @@ Software: Python 3.7.6, Visual Studio Code 1.60.2
     - **Raymon Anthony Doane** 3.1% of the votes with 11,606 total votes
 ```
             if candidate_name not in candidate_options:
-            candidate_options.append(candidate_name)
-            candidate_votes[candidate_name] = 0
-        candidate_votes[candidate_name] += 1
+                candidate_options.append(candidate_name)
+                candidate_votes[candidate_name] = 0
+            candidate_votes[candidate_name] += 1
 ```        
 
 - The winner of the election was: 
